@@ -1,0 +1,62 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.UASAPP" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+    </style>
+    <style name="EditTextLogin">
+        <item name="android:layout_width">350px</item>
+        <item name="android:layout_height">60px</item>
+        <item name="android:textColor">@color/colorBg2</item>
+        <item name="android:layout_marginTop">15px</item>
+        <item name="android:textAlignment" tools:ignore="NewApi">center</item>
+    </style>
+    <style name="EditTextDaftar">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">60px</item>
+        <item name="android:textColor">@color/colorBg2</item>
+        <item name="android:layout_marginTop">15px</item>
+    </style>
+    <style name="ButtonLogin">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">50px</item>
+        <item name="android:textColor">@color/colorBorder</item>
+        <item name="android:background">@drawable/btn_master</item>
+    </style>
+    <style name="logoImg">
+        <item name="android:layout_width">300px</item>
+        <item name="android:layout_height">150px</item>
+        <item name="android:layout_marginBottom">50px</item>
+    </style>
+    <style name="logoImgHome">
+        <item name="android:layout_width">450px</item>
+        <item name="android:layout_height">300px</item>
+        <item name="android:layout_marginTop">7pt</item>
+    </style>
+    <style name="logoImgHomeF">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">70px</item>
+    </style>
+    <style name="texIg">
+        <item name="android:layout_width">40pt</item>
+        <item name="android:layout_height">50px</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">casual</item>
+    </style>
+    <style name="texPp">
+        <item name="android:layout_width">99pt</item>
+        <item name="android:layout_height">50px</item>
+        <item name="android:textColor">@color/colorBg2</item>
+    </style>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".daftar"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorbg">
+
+    <ImageView
+        style="@style/logoImg"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10px"
+        android:fontFamily="casual"
+        android:text=" Register Yourself Our Member GG"
+        android:textColor="@color/colorYellow"
+        android:textSize="15dp"
+        android:textStyle="bold|italic" />
+    <EditText
+        android:id="@+id/edit_nama"
+        style="@style/EditTextDaftar"
+        android:hint="Nama" />
+    <EditText
+        android:id="@+id/edit_pass"
+        style="@style/EditTextDaftar"
+        android:hint="Password"
+        android:inputType="textPassword"/>
+    <EditText
+        android:id="@+id/edit_nomor"
+        style="@style/EditTextDaftar"
+        android:hint="Nomor HP"
+        android:inputType="phone"/>
+    <EditText
+        android:id="@+id/edit_email"
+        style="@style/EditTextDaftar"
+        android:hint="Email" />
+    <EditText
+        android:id="@+id/edit_alamat"
+        style="@style/EditTextDaftar"
+        android:hint="Alamat" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal">
+    <Button
+        android:id="@+id/btn_daftar"
+        style="@style/ButtonLogin"
+        android:layout_marginTop="25px"
+        android:text="Daftar"
+        android:background="@drawable/btn_press"
+        android:layout_marginRight="20px"
+        android:onClick="registerme"/>
+    <Button
+        android:id="@+id/btn_cancel"
+        style="@style/ButtonLogin"
+        android:layout_marginTop="25px"
+        android:text="cancel"
+        android:onClick="cancelme"/>
+</LinearLayout>
+
+
+</LinearLayout>

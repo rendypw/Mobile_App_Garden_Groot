@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorbg">
+    <ImageView
+        style="@style/logoImg"
+        android:src="@drawable/logo" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10px"
+        android:fontFamily="casual"
+        android:text=" Update Data Tanaman"
+        android:textColor="@color/colorYellow"
+        android:textSize="15dp"
+        android:textStyle="bold|italic" />
+    <EditText
+        android:id="@+id/id_tnmnu"
+        style="@style/EditTextDaftar"
+        android:hint="Id tanaman" />
+    <EditText
+        android:id="@+id/uk_potu"
+        style="@style/EditTextDaftar"
+        android:hint="ukuran pot"/>
+    <EditText
+        android:id="@+id/jenis_tnmnu"
+        style="@style/EditTextDaftar"
+        android:hint="jenis tanaman" />
+    <EditText
+        android:id="@+id/hargau"
+        style="@style/EditTextDaftar"
+        android:hint="harga"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/stoku"
+        style="@style/EditTextDaftar"
+        android:hint="stok" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/btn_updateU"
+            style="@style/ButtonLogin"
+            android:layout_marginTop="25px"
+            android:text="Update"
+            android:layout_marginRight="20px"
+            android:onClick="updateUpAc"/>
+        <Button
+            android:id="@+id/btn_cancelU"
+            style="@style/ButtonLogin"
+            android:layout_marginTop="25px"
+            android:text="cancel"
+            android:onClick="cancelUpAc"/>
+    </LinearLayout>
+
+</LinearLayout>
